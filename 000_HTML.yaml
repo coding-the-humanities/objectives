@@ -1,0 +1,83 @@
+title:      HTML
+level:      0
+points:     100
+mandatory:  false
+
+technologies:
+  - HTML
+
+description: >
+  When you look at a web page in a web browser, you see, at the simplest level,
+  words. HTML stands for Hypertext Markup Language. It tells the web browser 
+  what content to display. In many cases a page also displays images or 
+  maybe video. HTML separates "content" (words, images, audio, video, and so 
+  on) from "presentation" (the definition of the type of content and the 
+  instructions for how that type of content should be displayed). HTML uses a 
+  pre-defined set of elements to identify content types.
+
+assignments:
+  - title: HTML Introduction
+    description: >
+      Write these so that they work towards the assignment. Keep them short, 
+      focus on the why, not the how and the what. Don't explain the 
+      technologies in detail. Let the (carefully curated!) resources do that 
+      for you.
+    instructions:
+      - Do This
+      - Then That
+    resources:
+      - title:   Introduction Videos
+        type:    article
+        site:
+          name:  Mozilla Developer Network
+        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+      - title:   HTML for Virgins
+        type:    video
+        site:
+          name: CodeBabes
+        url:    https://www.youtube.com/watch?v=qVY2x6f3FTU
+  - title: HTML Structure
+    description: >
+      Write these so that they work towards the assignment. Keep them short, 
+      focus on the why, not the how and the what. Don't explain the 
+      technologies in detail. Let the resources do that for you.
+    instructions:
+      - Do This
+      - Then That
+    resources:
+      - title:   HTML5 Page Structure
+        type:    article
+        author:  Chris Coyer
+        site:
+          name:  CSS Tricks
+          url:   http://css-tricks.com
+        url:   http://css-tricks.com/snippets/html/html5-page-structure/
+  - title: HTML Links
+    description:
+      Write these so that they work towards the assignment. Keep them short, 
+      focus on the why, not the how and the what. Don't explain the 
+      technologies in detail. Let the resources do that for you.
+    instructions:
+      - Do This
+      - Then That
+    resources:
+      - title:   A Tag
+        type:    article
+        site:
+          name:  Mozilla Developer Network
+        url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+resources:
+  - title:   Front-End Foundations
+    type:    tutorial
+    site:
+      name:  CodeSchool
+      url:   http://www.codeschool.com
+    url:   https://www.codeschool.com/courses/front-end-foundations
+  - title:   HTML & CSS
+    type:    book
+    publisher:
+      name:     John Wiley & Sons Inc.
+      location: Indianapolis, IN
+      url:      http://www.wiley.com
+    url: http://www.bol.com/nl/p/html-css/1001004010712714/?featuredProduct
