@@ -1,0 +1,61 @@
+title:      Polymer
+level:      1
+points:     100
+mandatory:  true
+
+technologies:
+  - Polymer
+
+description: >
+(EDIT)We are going to learn about Polymer. 
+using it makes it easier .....>>>>
+Polymer is a framework facilitates the use of Web Components. It's foundation 
+is Custom Elements. Polymer allows us to combine many html files each 
+cointaining a single item like a button or a navigation bar. This way 
+we can mix and match different components and build a web app that is 
+scalable and maintanable. We acces these components by using 
+custom elements these are basicaly custom html tags like <section>.
+
+assignments:
+  - title: Introduction
+    description: >
+      First lets familiarise ourselves with Polymer.
+    instructions:
+      - Read up on Polymer by visiting their website
+      - Watch the introduction video by Matthew McNulty
+    resources:
+      - title:   Polymer 
+        type:    website
+        site:    www.polymer-project.org
+          name:  Polymer Project
+        url:   https://www.polymer-project.org/
+      - title:   Introduction Video
+        type:    video
+        site:
+          name:  Introduction to Polymer: The Next Generation of Web Development 
+        url:   https://www.youtube.com/watch?v=8-Zq2KUN6jM
+    - title: Getting started
+      description: >
+        (EDIT)The polymer-book is a great resource to get started with Polymer. 
+        In the first chapter you will learn how to start coding using Polymer Syntax.
+      instructions:
+        - Follow along with Chapter-1 (Polymer-book)
+      resources:
+        - title:   Polymer-book
+          type:    book
+          site:    
+            name:  Chapter-1
+          url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+    - title: Refactor
+      description: >
+        Refactoring is improving the design of existing code. ..>>>>>>> REFACTOR INFO
+        In this case it means changing the design of your webpage. Turning it in to a Polymer element.
+      instructions:
+        - Use what you have learned from Chapter-1 to refactor your existing code. 
+        - Refactor your code to be a single polymer html file with the element inside it.
+      resources:
+        - title:   Polymer-book
+          type:    book
+          site:    
+            name:  Chapter-1
+          url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
