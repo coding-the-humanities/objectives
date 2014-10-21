@@ -18,32 +18,32 @@ description: >
 assignments:
   - title: HTML Introduction
     description: >
-      Write these so that they work towards the assignment. Keep them short, 
-      focus on the why, not the how and the what. Don't explain the 
-      technologies in detail. Let the (carefully curated!) resources do that 
-      for you.
+      This assignment is meant to introduce you to HTML (surprise!). 
+      HTML contains the stuff you see on a webpage and it is best to be seen as a big Tupperware box that contains all sorts of smaller boxes. 
+      If you leave the box empty, the browser will display a white page. 
+      Fill it with words and words will appear.
+      Fill it with boxes and boxes will appear.
     instructions:
-      - Do This
-      - Then That
+      - Read the article.
+      - Watch the instruction video.
     resources:
-      - title:   Introduction Videos
+      - title:   Introduction
         type:    article
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
-      - title:   HTML for Virgins
+      - title:   Introduction video
         type:    video
         site:
-          name: CodeBabes
-        url:    https://www.youtube.com/watch?v=qVY2x6f3FTU
+          name:  Youtube - Aaron Maynard's Channel
+        url:     http://youtu.be/FluG2Nu8Tjg
   - title: HTML Structure
     description: >
-      Write these so that they work towards the assignment. Keep them short, 
-      focus on the why, not the how and the what. Don't explain the 
-      technologies in detail. Let the resources do that for you.
+      Now you will learn about the boxes and the boxes in boxes, or at least how to work with the boxes.
+      Making a HTML structure is like a piece of cake, except it's not as tasty and sweet.
     instructions:
-      - Do This
-      - Then That
+      - Watch the video.
+      - Make a basic html structure.
     resources:
       - title:   HTML5 Page Structure
         type:    article
@@ -53,19 +53,39 @@ assignments:
           url:   http://css-tricks.com
         url:   http://css-tricks.com/snippets/html/html5-page-structure/
   - title: HTML Links
-    description:
-      Write these so that they work towards the assignment. Keep them short, 
-      focus on the why, not the how and the what. Don't explain the 
-      technologies in detail. Let the resources do that for you.
+    description: >
+      Linking is a way to reference to other stuff on the internet. 
+      You use the 'A' (for 'Anchor') tag for this.
+      The fun thing is that you can put anything between the opening and closing tag.
+      Anything!
     instructions:
-      - Do This
-      - Then That
+      - Read the article
+      - Make some links. 
     resources:
       - title:   A Tag
         type:    article
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+  - title: HTML Pictures
+    description: >
+      Everybody loves pictures. 
+      In this excercise you learn how to include pictures in your HTML.
+      How cool is that!?
+    instructions:
+      - Read the articles
+      - Include 9 pictures on your webpage. 
+    resources:
+      - title:   IMG Tag
+        type:    article
+        site:
+          name:  Mozilla Developer Network
+        url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+      - title:   Basic HTML: adding images
+        type:    article
+        site:
+          name:  HTML Goodies
+        url:     http://www.htmlgoodies.com/primers/html/article.php/3478181
 
 resources:
   - title:   Front-End Foundations
