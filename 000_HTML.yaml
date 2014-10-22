@@ -19,13 +19,13 @@ assignments:
   - title: HTML Introduction
     description: >
       This assignment is meant to introduce you to HTML (surprise!). 
-      HTML contains the stuff you see on a webpage and it is best to be seen as a big Tupperware box that contains all sorts of smaller boxes. 
-      If you leave the box empty, the browser will display a white page. 
-      Fill it with words and words will appear.
-      Fill it with boxes and boxes will appear.
+      HTML forms the basis of every webpage today.
+      Therefore it is crucial that you learn it.
     instructions:
       - Read the article.
       - Watch the instruction video.
+      - Download a text editor. I recommend Sublime Text.
+      - Write in the text editor in your own words what HTML is and what it consists of.
     resources:
       - title:   Introduction
         type:    article
@@ -37,13 +37,23 @@ assignments:
         site:
           name:  Youtube - Aaron Maynard's Channel
         url:     http://youtu.be/FluG2Nu8Tjg
+      - title:   Sublime Text
+        type:    program
+        site:
+          name:  Sublime Text
+        url:     http://www.sublimetext.com/2   
   - title: HTML Structure
     description: >
-      Now you will learn about the boxes and the boxes in boxes, or at least how to work with the boxes.
-      Making a HTML structure is like a piece of cake, except it's not as tasty and sweet.
+      HTML works with things called 'tags'. 
+      These grant a certain functionality to the content within.
+      Tags are used to achieve clarity and structure within your webpage.
     instructions:
-      - Watch the video.
-      - Make a basic html structure.
+      - Read the article.
+      - Make a basic html structure containing a head and body.
+      - Take the text you wrote in the last assignment (or any other text) and place it in the body.
+      - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with the p tag.
+      - Save the file, go to the folder it is in and double click on the file to open it in your browser.
+      - Congratulations, you made a webpage!
     resources:
       - title:   HTML5 Page Structure
         type:    article
@@ -56,11 +66,11 @@ assignments:
     description: >
       Linking is a way to reference to other stuff on the internet. 
       You use the 'A' (for 'Anchor') tag for this.
-      The fun thing is that you can put anything between the opening and closing tag.
-      Anything!
+      Linking creates a so-called hyperlink to another website.
+      You usually link to contextualize the content of your website.
     instructions:
       - Read the article
-      - Make some links. 
+      - Make some links under the paragraphs in your text that reference to related subjects.
     resources:
       - title:   A Tag
         type:    article
@@ -70,11 +80,14 @@ assignments:
   - title: HTML Pictures
     description: >
       Everybody loves pictures. 
-      In this excercise you learn how to include pictures in your HTML.
-      How cool is that!?
+      People include pictures on their webpage to illustrate the content.
+      You can include pictures with the <img> tag.
+      The pictures can be retrieved from the internet, in which you use the hyperlink of the image.
+      They can also be stored locally, in which case you put them in the same folder as your webpage and reference to their name.
     instructions:
-      - Read the articles
-      - Include 9 pictures on your webpage. 
+      - Read the articles.
+      - Look up on Google Images at least five pictures related to your text.
+      - Include these pictures on your website, to better illustrate the content.
     resources:
       - title:   IMG Tag
         type:    article
@@ -86,6 +99,20 @@ assignments:
         site:
           name:  HTML Goodies
         url:     http://www.htmlgoodies.com/primers/html/article.php/3478181
+  - title: Gist
+    description: >
+      One way to share code with your peers and/or friends is to e-mail them the files.
+      But mailing somebody files can become quite a hassle when you're dealing with a lot of files.
+      Another way is to put it on Github, a website made for and by programmers to store and share code.
+      Github supplies us with two ways to do that. The first is making a repository.
+      The second way is Gist, which is a lot easier but has it's limitations.
+    instructions:
+      - Go to gist.github.com.
+      - Copy paste the code you have written for these assignments into the box, or press 'Add File'.
+      - Give the file the name "Level0_HTML_assignment.html".
+      - Write some snazzy description in the description box.
+      - Click "Create public Gist" in the bottom right corner.
+      - E-mail the link to >>>INSERTHEREOUREMAIL@CTH.NL<<< and/or your pals.
 
 resources:
   - title:   Front-End Foundations
