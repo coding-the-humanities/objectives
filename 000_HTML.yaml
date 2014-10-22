@@ -6,7 +6,8 @@ mandatory:  false
 technologies:
   - HTML
 
-description: >
+description: 
+  full: >
   When you look at a web page in a web browser, you see, at the simplest level,
   words. HTML stands for Hypertext Markup Language. It tells the web browser 
   what content to display. In many cases a page also displays images or 
@@ -14,13 +15,14 @@ description: >
   on) from "presentation" (the definition of the type of content and the 
   instructions for how that type of content should be displayed). HTML uses a 
   pre-defined set of elements to identify content types.
+  summary: >
+    HTML tells the web browser what content to display. 
+    It uses a set of elements to identify content types.
 
 assignments:
   - title: HTML Introduction
     description: >
-      This assignment is meant to introduce you to HTML (surprise!). 
-      HTML forms the basis of every webpage today.
-      Therefore it is crucial that you learn it.
+      Explain HTML in your own words.
     instructions:
       - Read the article.
       - Watch the instruction video.
@@ -42,11 +44,9 @@ assignments:
         site:
           name:  Sublime Text
         url:     http://www.sublimetext.com/2   
-  - title: HTML Structure
+  - title: Basic HTML Structure
     description: >
-      HTML works with things called 'tags'. 
-      These grant a certain functionality to the content within.
-      Tags are used to achieve clarity and structure within your webpage.
+      Make a basic HTML structure to fit your text in.
     instructions:
       - Read the article.
       - Make a basic html structure containing a head and body.
@@ -62,12 +62,9 @@ assignments:
           name:  CSS Tricks
           url:   http://css-tricks.com
         url:   http://css-tricks.com/snippets/html/html5-page-structure/
-  - title: HTML Links
+  - title: The Anchor Tag
     description: >
-      Linking is a way to reference to other stuff on the internet. 
-      You use the 'A' (for 'Anchor') tag for this.
-      Linking creates a so-called hyperlink to another website.
-      You usually link to contextualize the content of your website.
+      Link to URL's with the Anchor tag.
     instructions:
       - Read the article
       - Make some links under the paragraphs in your text that reference to related subjects.
@@ -77,13 +74,9 @@ assignments:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
-  - title: HTML Pictures
+  - title: The Image Tag
     description: >
-      Everybody loves pictures. 
-      People include pictures on their webpage to illustrate the content.
-      You can include pictures with the <img> tag.
-      The pictures can be retrieved from the internet, in which you use the hyperlink of the image.
-      They can also be stored locally, in which case you put them in the same folder as your webpage and reference to their name.
+      Include pictures on your webpage with the image tag.
     instructions:
       - Read the articles.
       - Look up on Google Images at least five pictures related to your text.
@@ -99,20 +92,6 @@ assignments:
         site:
           name:  HTML Goodies
         url:     http://www.htmlgoodies.com/primers/html/article.php/3478181
-  - title: Gist
-    description: >
-      One way to share code with your peers and/or friends is to e-mail them the files.
-      But mailing somebody files can become quite a hassle when you're dealing with a lot of files.
-      Another way is to put it on Github, a website made for and by programmers to store and share code.
-      Github supplies us with two ways to do that. The first is making a repository.
-      The second way is Gist, which is a lot easier but has it's limitations.
-    instructions:
-      - Go to gist.github.com.
-      - Copy paste the code you have written for these assignments into the box, or press 'Add File'.
-      - Give the file the name "Level0_HTML_assignment.html".
-      - Write some snazzy description in the description box.
-      - Click "Create public Gist" in the bottom right corner.
-      - E-mail the link to >>>INSERTHEREOUREMAIL@CTH.NL<<< and/or your pals.
 
 resources:
   - title:   Front-End Foundations

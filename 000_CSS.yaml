@@ -6,17 +6,20 @@ mandatory:  false
 technologies:
   - CSS
 
-description: >
+description: 
+  full: >
   This is the introduction to CSS (cascading style sheet). 
-  A CSS file allows you to separate your web sites (X)HTML content from it’s style. 
+  A CSS file allows you to separate your website's (X)HTML content from its style. 
   As always you use your HTML file to arrange the content, 
-  but all of the presentation 
-  (fonts, colors, background, borders, text formatting, link effects & so on…) are accomplished within a CSS. 
+  but all of the presentation (fonts, colors, background, borders, text formatting, link effects & so on…) 
+  are accomplished within a CSS. 
+  summary: >
+    CSS allows you to separate your website's styling from its HTML content. 
 
 assignments:
   - title: CSS Introduction
     description: >
-      Css is cool stuff, but what does it actually do?
+      Learn about CSS.
     instructions:
       - Read the article.
       - Watch the instruction video.
@@ -33,27 +36,21 @@ assignments:
         site:
           name:  CSS Tutorial
         url:     http://youtu.be/Waq1d1jpl3M
-  - title: CSS Selectors
+  - title: Selectors
     description: >
-      In order for CSS to work you first need to specify which element you wish to apply CSS to.
-      You do this with 'selectors'.
-      Selectors are essentially just names for the things you want to target and affect.
-      Within the {brackets} of selectors you place the effects you want to apply.
+      Create selectors.
     instructions:
       - Watch the video.
-      - Add some selectors to some basic html.
+      - Add selectors to the html provided in the resources for the body, the paragraphs and each separate title.
     resources:
       - title:   CSS selectors
         type:    article
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
-  - title: CSS Colors
+  - title: Colors
     description: >
-      Colors give life to a page. 
-      Black and white may be minimalistic and sleek, but the possibilities that arise when you add, say, 50 shades of grey,
-      add so much to a website.
-      This article focuses mainly on background color, but the principles can also be applied to text color.
+      Color your text and background.
     instructions:
       - Read the articles
       - Write a short text about how to use selectors in CSS.
@@ -76,9 +73,7 @@ assignments:
         url:     http://www.colorpicker.com/
   - title: CSS Fonts
     description: >
-      CSS also allows programmers to change the font on your webpage, or even include all the fonts.
-      You can include custom fonts, but for some of them you have to pay.
-      Nevertheless, you will probably grow font of the possibilities you already possess.
+      Add cool fonts to your webpage.
     instructions:
       - Read the article.
       - Change the font of your short text.
@@ -93,20 +88,6 @@ assignments:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/CSS/font
-  - title: Gist
-    description: >
-      One way to share code with your peers and/or friends is to e-mail them the files.
-      But mailing somebody files can become quite a hassle when you're dealing with a lot of files.
-      Another way is to put it on Github, a website made for and by programmers to store and share code.
-      Github supplies us with two ways to do that. The first is making a repository.
-      The second way is Gist, which is a lot easier but has it's limitations.
-    instructions:
-      - Go to gist.github.com.
-      - Copy paste the code you have written for these assignments into the box, or press 'Add File'.
-      - Give the file the name Level0_CSS_assignment.html.
-      - Write some snazzy description in the description box.
-      - Click "Create public Gist" in the bottom right corner.
-      - E-mail the link to >>>INSERTHEREOUREMAIL@CTH.NL<<< and/or your pals.
 
 resources:
   - title:   Front-End Foundations
