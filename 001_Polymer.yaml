@@ -1,23 +1,30 @@
 title:      Web Components
 level:      1
 points:     100
+
 mandatory:  true
+
+summary: > 
+  Web Components are the future of web development, but what are they? 
 
 technologies:
   - Polymer
 
-description: >
-Web Components are the future of web development, but what are they? 
-Remeber the <img> element, that allows you to embed an image to your 
-website? What if you could create your own custom element. For example 
-we could create an element called <my-clock> that would insert a clock 
-displaying the time. Like any other element we could then reuse our 
-clock element whenever and wherever we need. This is exactly what 
-web components allow us to do, to create custom HTML elements. 
-Web components enable truly encapsulated and reusable components for
-the web. This means we can easily create widgets and other useful
-elements that can be easily shared, without having to retype or 
-rework code. That is the beauty of web components.
+description:
+summary: > 
+    Web Components are the future of web development, but what are they? 
+  full: >
+    Web Components are the future of web development, but what are they? 
+    Remeber the <img> element, that allows you to embed an image to your 
+    website? What if you could create your own custom element. For example 
+    we could create an element called <my-clock> that would insert a clock 
+    displaying the time. Like any other element we could then reuse our 
+    clock element whenever and wherever we need. This is exactly what 
+    web components allow us to do, to create custom HTML elements. 
+    Web components enable truly encapsulated and reusable components for
+    the web. This means we can easily create widgets and other useful
+    elements that can be easily shared, without having to retype or 
+    rework code. That is the beauty of web components.
 
 assignments:
   - title: Introduction
