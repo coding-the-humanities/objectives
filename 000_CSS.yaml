@@ -93,6 +93,20 @@ assignments:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/CSS/font
+  - title: Gist
+    description: >
+      One way to share code with your peers and/or friends is to e-mail them the files.
+      But mailing somebody files can become quite a hassle when you're dealing with a lot of files.
+      Another way is to put it on Github, a website made for and by programmers to store and share code.
+      Github supplies us with two ways to do that. The first is making a repository.
+      The second way is Gist, which is a lot easier but has it's limitations.
+    instructions:
+      - Go to gist.github.com.
+      - Copy paste the code you have written for these assignments into the box, or press 'Add File'.
+      - Give the file the name Level0_CSS_assignment.html.
+      - Write some snazzy description in the description box.
+      - Click "Create public Gist" in the bottom right corner.
+      - E-mail the link to >>>INSERTHEREOUREMAIL@CTH.NL<<< and/or your pals.
 
 resources:
   - title:   Front-End Foundations
