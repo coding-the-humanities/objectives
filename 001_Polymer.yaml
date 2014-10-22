@@ -1,4 +1,4 @@
-title:      Polymer
+title:      Web Components
 level:      1
 points:     100
 mandatory:  true
@@ -7,26 +7,33 @@ technologies:
   - Polymer
 
 description: >
-(EDIT)We are going to learn about Polymer. 
-using it makes it easier .....>>>>
-Polymer is a framework facilitates the use of Web Components. It's foundation 
-is Custom Elements. Polymer allows us to combine many html files each 
-cointaining a single item like a button or a navigation bar. This way 
-we can mix and match different components and build a web app that is 
-scalable and maintanable. We acces these components by using 
-custom elements these are basicaly custom html tags like <section>.
+Web Components are the future of web development, but what are they? 
+Remeber the <img> element, that allows you to embed an image to your 
+website? What if you could create your own custom element. For example 
+we could create an element called <my-clock> that would insert a clock 
+displaying the time. Like any other element we could then reuse our 
+clock element whenever and wherever we need. This is exactly what 
+web components allow us to do, to create custom HTML elements. 
+Web components enable truly encapsulated and reusable components for
+the web. This means we can easily create widgets and other useful
+elements that can be easily shared, without having to retype or 
+rework code. That is the beauty of web components.
 
 assignments:
   - title: Introduction
     description: >
-      First lets familiarise ourselves with Polymer.
+      Polymer is a library build on top of web components making the 
+      development of web components easier. Polymer has a certain way 
+      of thinking how these web components are best used and created. 
+      First familiarise yourself with Polymer and their methodology. 
+      Check out the website and their introduction video.
     instructions:
       - Read up on Polymer by visiting their website
       - Watch the introduction video by Matthew McNulty
     resources:
       - title:   Polymer 
         type:    website
-        site:    www.polymer-project.org
+        site:    polymer-project
           name:  Polymer Project
         url:   https://www.polymer-project.org/
       - title:   Introduction Video
@@ -34,28 +41,83 @@ assignments:
         site:
           name:  Introduction to Polymer: The Next Generation of Web Development 
         url:   https://www.youtube.com/watch?v=8-Zq2KUN6jM
+      - title:   Web components
+        type:    Article
+        site:    techcrunch
+          name:  Google Believes Web Components Are The Future Of Web Development
+        url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
+
+- title: Environment
+      description: >
+        In order to create stunning web applications we can make use of 
+        libraries or frameworks. These are a collection of sources that 
+        allow for more functionalities and/or easier development. We are 
+        using a library called Polymer. It is comprised of polymer.js 
+        and platform.js this allows for the use of webcomponents
+        (EDIT>>>in more detail platform polyfill etc.). but 
+        we need the sources, so we need to set up an environment with 
+        all the dependencies we need. The Polymer-book provides a 
+        step by step instruction in their appendix-A on how to set up 
+        this environemt. Create your environment so you can use Polymer 
+        in your next assignments.
+      instructions:
+        - Set up your environment as described in appendix-A (Polymer-book)
+      resources:
+        - title:   Polymer-book
+          type:    book
+          site:    
+            name:  Chapter-1
+          url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/appendix_a_setting_up_your_environment/README.html
+       - title:    Polyfill definition
+          type:    book
+          site:    
+            name:  Polyfill 
+          url:   http://en.wikipedia.org/wiki/Polyfill
     - title: Getting started
       description: >
-        (EDIT)The polymer-book is a great resource to get started with Polymer. 
-        In the first chapter you will learn how to start coding using Polymer Syntax.
+        In this assignment you will learn about the way Polymer is set 
+        up and use Polymers templating and data-binding functionalities 
+        to create your first element. Templating means you can create a 
+        reusable structure as a seperate HTML file. If you have multiple 
+        templates, and they need to be able to communicate or pass data, 
+        you can use data-binding. You will learn about these functionalities 
+        and techniques by creating a simple first Polymer element. 
+        To guide you trhough this process, head over to chapter 1 
+        from the Polymer-book, and get started!
       instructions:
-        - Follow along with Chapter-1 (Polymer-book)
+        - Create your first Polymer element as described in Chapter-1 (Polymer-book)
       resources:
         - title:   Polymer-book
           type:    book
           site:    
             name:  Chapter-1
           url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+        - title:   Templates
+          type:    video
+          site:    youtube
+            name:  DevBytes: Web Components - Template
+          url:   https://www.youtube.com/watch?v=qC5xK6H0GlQ
     - title: Refactor
       description: >
-        Refactoring is improving the design of existing code. ..>>>>>>> REFACTOR INFO
-        In this case it means changing the design of your webpage. Turning it in to a Polymer element.
+        Coding is as much refactoring as it is creating new code. Refactoring 
+        is the proces of improving the design of existing code. In this assignment 
+        we are going to refactor your previous level0 project in to a Polymer 
+        project. Try to think of the design of your code, remove unused or redundant 
+        code or perhaps add usefull comments. In level0 you created a simple 
+        HTML file with some CSS. In this assignment the goal is to convert your 
+        regular HTML file in to a Polymer element and an index.html file 
+        where it is displayed.
       instructions:
         - Use what you have learned from Chapter-1 to refactor your existing code. 
-        - Refactor your code to be a single polymer html file with the element inside it.
+        - Refactor your code to be a single polymer element and display it in your index.html
       resources:
         - title:   Polymer-book
           type:    book
           site:    
             name:  Chapter-1
           url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+        - title:   Refactoring definition
+          type:    article
+          site:    wikipedia
+            name:  Code refactoring
+          url:   http://en.wikipedia.org/wiki/Code_refactoring
