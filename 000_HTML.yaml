@@ -21,7 +21,10 @@ description:
 assignments:
   - title: HTML Introduction
     description: >
-      Explain HTML in your own words.
+      This assignment is meant to introduce you to HTML (surprise!). 
+      HTML forms the basis of every webpage today.
+      Therefore it is crucial that you learn it.
+      In this assignment, we want you to explain HTML in your own words.
     instructions:
       - Read the article.
       - Watch the instruction video.
@@ -45,7 +48,10 @@ assignments:
         url:     http://www.sublimetext.com/2   
   - title: Basic HTML Structure
     description: >
-      Make a basic HTML structure to fit your text in.
+      HTML works with things called 'tags'. 
+      These grant a certain functionality to the content within.
+      Tags are used to achieve clarity and structure within your webpage.
+      Make a basic HTML structure to fit your text in for this assignment.
     instructions:
       - Read the article.
       - Make a basic html structure containing a head and body.
@@ -63,7 +69,11 @@ assignments:
         url:   http://css-tricks.com/snippets/html/html5-page-structure/
   - title: The Anchor Tag
     description: >
-      Link to URL's with the Anchor tag.
+      Linking is a way to reference to other stuff on the internet. 
+      You use the 'A' (for 'Anchor') tag for this.
+      Linking creates a so-called hyperlink to another website.
+      You usually link to contextualize the content of your website.
+      Link to a number of URL's with the Anchor tag for this assignment.
     instructions:
       - Read the article
       - Make some links under the paragraphs in your text that reference to related subjects.
@@ -75,6 +85,12 @@ assignments:
         url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
   - title: The Image Tag
     description: >
+      Everybody loves pictures. 
+      People include pictures (usually concerning cats) on their webpage to illustrate the content.
+      You can include pictures with the <img> tag.
+      The pictures can be retrieved from the internet, in which you use the hyperlink of the image.
+      They can also be stored locally, in which case you put them in the same folder as your webpage 
+      and reference to their name.
       Include pictures on your webpage with the image tag.
     instructions:
       - Read the articles.

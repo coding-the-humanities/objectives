@@ -38,8 +38,13 @@ assignments:
         url:     http://youtu.be/Waq1d1jpl3M
   - title: Selectors
     description: >
-      Create selectors.
+      In order for CSS to work you first need to specify which element you wish to apply CSS to.
+      You do this with 'selectors'.
+      Selectors are essentially just names for the things you want to target and affect.
+      Within the {brackets} of selectors you place the effects you want to apply.
+      In this assignment we want you to create selectors.
     instructions:
+      - Read the article.
       - Watch the video.
       - Add selectors to the html provided in the resources for the body, the paragraphs and each separate title.
     resources:
@@ -48,9 +53,19 @@ assignments:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+      - title:   CSS Container
+        type:    video
+        author:  PHPacademy
+        site:
+          name:  Simple CSS Flat Design Container
+        url:     http://youtu.be/irZ1ZMImZfg
   - title: Colors
     description: >
-      Color your text and background.
+      Colors give life to a page. 
+      Black and white may be minimalistic and sleek, but the possibilities that arise when you add, say, 50 shades of grey,
+      add so much to a website.
+      This article focuses mainly on background color, but the principles can also be applied to text color.
+      Color a text and background for this assignment.
     instructions:
       - Read the articles
       - Write a short text about how to use selectors in CSS.
@@ -73,6 +88,9 @@ assignments:
         url:     http://www.colorpicker.com/
   - title: CSS Fonts
     description: >
+      CSS also allows programmers to change the font on your webpage, or even include all the fonts.
+      You can include custom fonts, but for some of them you have to pay.
+      Nevertheless, you will probably grow font of the possibilities you already possess.
       Add cool fonts to your webpage.
     instructions:
       - Read the article.
