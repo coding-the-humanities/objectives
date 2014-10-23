@@ -8,11 +8,11 @@ technologies:
 
 description: 
   full: >
-  This is the introduction to CSS (cascading style sheet). 
+  This is the introduction to CSS (cascading style sheets). 
   A CSS file allows you to separate your website's (X)HTML content from its style. 
   As always you use your HTML file to arrange the content, 
   but all of the presentation (fonts, colors, background, borders, text formatting, link effects & so on…) 
-  are accomplished within a CSS. 
+  are accomplished within a CSS file.
   summary: >
     CSS allows you to separate your website's styling from its HTML content. 
 

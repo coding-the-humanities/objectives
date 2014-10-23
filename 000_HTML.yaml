@@ -8,15 +8,14 @@ technologies:
 
 description: 
   full: >
-  When you look at a web page in a web browser, you see, at the simplest level,
-  words. HTML stands for Hypertext Markup Language. It tells the web browser 
+  HTML stands for Hypertext Markup Language. When you look at a web page on a web browser 
+  you see, at the simplest level, words. HTML instructs a web browser 
   what content to display. In many cases a page also displays images or 
-  maybe video. HTML separates "content" (words, images, audio, video, and so 
-  on) from "presentation" (the definition of the type of content and the 
-  instructions for how that type of content should be displayed). HTML uses a 
+  maybe video clips. HTML defines and separates "content" (words, images, audio, video, and so 
+  on) from "presentation" (how to display a specific type of content). HTML uses a 
   pre-defined set of elements to identify content types.
   summary: >
-    HTML tells the web browser what content to display. 
+    HTML gives directions to the web browser on what content to display. 
     It uses a set of elements to identify content types.
 
 assignments:
@@ -26,7 +25,7 @@ assignments:
     instructions:
       - Read the article.
       - Watch the instruction video.
-      - Download a text editor. I recommend Sublime Text.
+      - Download a text editor. We recommend Sublime Text 2.
       - Write in the text editor in your own words what HTML is and what it consists of.
     resources:
       - title:   Introduction
@@ -53,7 +52,7 @@ assignments:
       - Take the text you wrote in the last assignment (or any other text) and place it in the body.
       - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with the p tag.
       - Save the file, go to the folder it is in and double click on the file to open it in your browser.
-      - Congratulations, you made a webpage!
+      - Congratulations, you just made a webpage!
     resources:
       - title:   HTML5 Page Structure
         type:    article

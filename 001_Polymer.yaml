@@ -60,9 +60,9 @@ assignments:
         libraries or frameworks. These are a collection of sources that 
         allow for more functionalities and/or easier development. We are 
         using a library called Polymer. It is comprised of polymer.js 
-        and platform.js this allows for the use of webcomponents
-        (EDIT>>>in more detail platform polyfill etc.). but 
-        we need the sources, so we need to set up an environment with 
+        and platform.js. This allows for the use of webcomponents
+        (EDIT>>>in more detail platform polyfill etc.).
+        But we need the sources, so we need to set up an environment with 
         all the dependencies we need. The Polymer-book provides a 
         step by step instruction in their appendix-A on how to set up 
         this environemt. Create your environment so you can use Polymer 
@@ -107,12 +107,12 @@ assignments:
     - title: Refactor
       description: >
         Coding is as much refactoring as it is creating new code. Refactoring 
-        is the proces of improving the design of existing code. In this assignment 
-        we are going to refactor your previous level0 project in to a Polymer 
+        is the process of improving the design of existing code. In this assignment 
+        we are going to refactor your previous level0 project into a Polymer 
         project. Try to think of the design of your code, remove unused or redundant 
         code or perhaps add usefull comments. In level0 you created a simple 
         HTML file with some CSS. In this assignment the goal is to convert your 
-        regular HTML file in to a Polymer element and an index.html file 
+        regular HTML file into a Polymer element and an index.html file 
         where it is displayed.
       instructions:
         - Use what you have learned from Chapter-1 to refactor your existing code. 

@@ -1,0 +1,20 @@
+- title: Gist
+  level:      0
+  points:     100
+  mandatory:  false
+
+  technologies:
+  - Gist
+    description: >
+      You would think one way to share code with your peers and/or friends would be by e-mail.
+      But mailing one's code is a hassle when you have to deal with lots of different files and endless lines of code.
+      Another way is to place these on Github, a website made for and by programmers to store and share code.
+      Github offers two ways to do that. The first is making a repository. More on this will follow later.
+      The second way is Gist, particulary handy for code snippets and a lot easier -though with some limitations.
+    instructions:
+      - Go to gist.github.com.
+      - Copy paste the code you have written for these assignments into the box, or press 'Add File'.
+      - Give the file the name Level0_CSS_assignment.html.
+      - Write some snazzy description in the description box.
+      - Click "Create public Gist" in the bottom right corner.
+      - E-mail the link to >>>INSERTHEREOUREMAIL@CTH.NL<<< and/or your pals.
