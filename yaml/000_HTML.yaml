@@ -18,7 +18,7 @@ description:
     HTML gives directions to the web browser on what content to display. 
     It uses a set of elements to identify content types.
 
-assignments:
+tasks:
   - title: HTML Introduction
     description: >
       This assignment is meant to introduce you to HTML (surprise!). 

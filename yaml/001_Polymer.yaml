@@ -10,7 +10,7 @@ technologies:
   - Polymer
 
 description:
-summary: > 
+  summary: > 
     Web Components are the future of web development, but what are they? 
   full: >
     Web Components are the future of web development, but what are they? 
@@ -25,7 +25,7 @@ summary: >
     elements that can be easily shared, without having to retype or 
     rework code. That is the beauty of web components.
 
-assignments:
+tasks:
   - title: Introduction
     description: >
       Polymer is a library build on top of web components making the 
