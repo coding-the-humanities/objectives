@@ -102,7 +102,7 @@ tasks:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
-      - title:   Basic HTML: adding images
+      - title:   Basic HTML - adding images
         type:    article
         site:
           name:  HTML Goodies
